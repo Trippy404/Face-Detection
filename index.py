@@ -5,7 +5,7 @@ import cv2
 
 a = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-b = cv2.VideoCapture(0)
+b = cv2.VideoCapture(0) # 0 for default camera
 
 while True:
     c_rec, d_image = b.read()
